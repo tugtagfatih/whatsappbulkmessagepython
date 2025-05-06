@@ -8,9 +8,9 @@ import time
 import os
 import urllib.parse
 
-chrome_driver_path = "C:/Users/User/Desktop/pythonchrometoplumesaj/chromedriver-win64/chromedriver.exe"
+chrome_driver_path = "/chromedriver-win64/chromedriver.exe"
 use_profile = True  # For save the browser profile
-profile_folder = "C:/Users/User/Desktop/pythonchrometoplumesaj/whatsapp_profile" 
+profile_folder = "/whatsapp_profile" 
 
 options = webdriver.ChromeOptions()
 if use_profile:
